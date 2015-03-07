@@ -15,6 +15,7 @@ public class Main extends JavaPlugin{
 		Bukkit.getPluginManager().registerEvents(new Gaszenie(), this);
 		Bukkit.getPluginManager().registerEvents(new Ogon(), this);
 		Bukkit.getPluginManager().registerEvents(new AntyAura(), this);
+		Bukkit.getPluginManager().registerEvents(new AnimowaneMotd(), this);
 		saveDefaultConfig();
 		msgs = getConfig().getStringList("automsg");
 		runAutoMsg(15);
