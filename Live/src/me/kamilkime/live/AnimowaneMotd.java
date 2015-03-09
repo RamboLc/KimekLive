@@ -12,6 +12,12 @@ import org.bukkit.scheduler.BukkitTask;
 
 public class AnimowaneMotd implements Listener{
 
+	/*
+	  Od razu mowie, ten kod NIE DZIALA
+	  Byl pisany dla jaj, bo nie mialem nic do roboty
+	  Jedyne ruchome MOTD jakie mozna zrobic - ProtocoLib'em
+	*/
+
 	private Map<InetAddress, BukkitTask> motd = new HashMap<InetAddress, BukkitTask>();
 	int i;
 	
@@ -24,124 +30,124 @@ public class AnimowaneMotd implements Listener{
 		BukkitTask task = Bukkit.getScheduler().runTaskTimer(Main.getInst(), new Runnable(){
 			public void run(){
 				if(i == 0){
-					e.setMotd("ง6To jest moje motd!                      ");
+					e.setMotd("ยง6To jest moje motd!                      ");
 				}
 				if(i == 1){
-					e.setMotd("ง6o jest moje motd!                      T");
+					e.setMotd("ยง6o jest moje motd!                      T");
 				}
 				if(i == 2){
-					e.setMotd("ง6 jest moje motd!                      To");
+					e.setMotd("ยง6 jest moje motd!                      To");
 				}
 				if(i == 3){
-					e.setMotd("ง6jest moje motd!                      To ");
+					e.setMotd("ยง6jest moje motd!                      To ");
 				}
 				if(i == 4){
-					e.setMotd("ง6est moje motd!                      To j");
+					e.setMotd("ยง6est moje motd!                      To j");
 				}
 				if(i == 5){
-					e.setMotd("ง6st moje motd!                      To je");
+					e.setMotd("ยง6st moje motd!                      To je");
 				}
 				if(i == 6){
-					e.setMotd("ง6t moje motd!                      To jes");
+					e.setMotd("ยง6t moje motd!                      To jes");
 				}
 				if(i == 7){
-					e.setMotd("ง6 moje motd!                      To jest");
+					e.setMotd("ยง6 moje motd!                      To jest");
 				}
 				if(i == 8){
-					e.setMotd("ง6moje motd!                      To jest ");
+					e.setMotd("ยง6moje motd!                      To jest ");
 				}
 				if(i == 9){
-					e.setMotd("ง6oje motd!                      To jest m");
+					e.setMotd("ยง6oje motd!                      To jest m");
 				}
 				if(i == 10){
-					e.setMotd("ง6je motd!                      To jest mo");
+					e.setMotd("ยง6je motd!                      To jest mo");
 				}
 				if(i == 11){
-					e.setMotd("ง6e motd!                      To jest moj");
+					e.setMotd("ยง6e motd!                      To jest moj");
 				}
 				if(i == 12){
-					e.setMotd("ง6 motd!                      To jest moje");
+					e.setMotd("ยง6 motd!                      To jest moje");
 				}
 				if(i == 13){
-					e.setMotd("ง6motd!                      To jest moje ");
+					e.setMotd("ยง6motd!                      To jest moje ");
 				}
 				if(i == 14){
-					e.setMotd("ง6otd!                      To jest moje m");
+					e.setMotd("ยง6otd!                      To jest moje m");
 				}
 				if(i == 15){
-					e.setMotd("ง6td!                      To jest moje mo");
+					e.setMotd("ยง6td!                      To jest moje mo");
 				}
 				if(i == 16){
-					e.setMotd("ง6d!                      To jest moje mot");
+					e.setMotd("ยง6d!                      To jest moje mot");
 				}
 				if(i == 17){
-					e.setMotd("ง6!                      To jest moje motd");
+					e.setMotd("ยง6!                      To jest moje motd");
 				}
 				if(i == 18){
-					e.setMotd("ง6                      To jest moje motd!");
+					e.setMotd("ยง6                      To jest moje motd!");
 				}
 				if(i == 19){
-					e.setMotd("ง6                     To jest moje motd! ");
+					e.setMotd("ยง6                     To jest moje motd! ");
 				}
 				if(i == 20){
-					e.setMotd("ง6                    To jest moje motd!  ");
+					e.setMotd("ยง6                    To jest moje motd!  ");
 				}
 				if(i == 21){
-					e.setMotd("ง6                   To jest moje motd!   ");
+					e.setMotd("ยง6                   To jest moje motd!   ");
 				}
 				if(i == 22){
-					e.setMotd("ง6                  To jest moje motd!    ");
+					e.setMotd("ยง6                  To jest moje motd!    ");
 				}
 				if(i == 23){
-					e.setMotd("ง6                 To jest moje motd!     ");
+					e.setMotd("ยง6                 To jest moje motd!     ");
 				}
 				if(i == 24){
-					e.setMotd("ง6                To jest moje motd!      ");
+					e.setMotd("ยง6                To jest moje motd!      ");
 				}
 				if(i == 25){
-					e.setMotd("ง6               To jest moje motd!       ");
+					e.setMotd("ยง6               To jest moje motd!       ");
 				}
 				if(i == 26){
-					e.setMotd("ง6              To jest moje motd!        ");
+					e.setMotd("ยง6              To jest moje motd!        ");
 				}
 				if(i == 27){
-					e.setMotd("ง6             To jest moje motd!         ");
+					e.setMotd("ยง6             To jest moje motd!         ");
 				}
 				if(i == 28){
-					e.setMotd("ง6            To jest moje motd!          ");
+					e.setMotd("ยง6            To jest moje motd!          ");
 				}
 				if(i == 29){
-					e.setMotd("ง6           To jest moje motd!           ");
+					e.setMotd("ยง6           To jest moje motd!           ");
 				}
 				if(i == 30){
-					e.setMotd("ง6          To jest moje motd!            ");
+					e.setMotd("ยง6          To jest moje motd!            ");
 				}
 				if(i == 31){
-					e.setMotd("ง6         To jest moje motd!             ");
+					e.setMotd("ยง6         To jest moje motd!             ");
 				}
 				if(i == 32){
-					e.setMotd("ง6        To jest moje motd!              ");
+					e.setMotd("ยง6        To jest moje motd!              ");
 				}
 				if(i == 33){
-					e.setMotd("ง6       To jest moje motd!               ");
+					e.setMotd("ยง6       To jest moje motd!               ");
 				}
 				if(i == 34){
-					e.setMotd("ง6      To jest moje motd!                ");
+					e.setMotd("ยง6      To jest moje motd!                ");
 				}
 				if(i == 35){
-					e.setMotd("ง6     To jest moje motd!                 ");
+					e.setMotd("ยง6     To jest moje motd!                 ");
 				}
 				if(i == 36){
-					e.setMotd("ง6    To jest moje motd!                  ");
+					e.setMotd("ยง6    To jest moje motd!                  ");
 				}
 				if(i == 37){
-					e.setMotd("ง6   To jest moje motd!                   ");
+					e.setMotd("ยง6   To jest moje motd!                   ");
 				}
 				if(i == 38){
-					e.setMotd("ง6  To jest moje motd!                    ");
+					e.setMotd("ยง6  To jest moje motd!                    ");
 				}
 				if(i == 39){
-					e.setMotd("ง6 To jest moje motd!                     ");
+					e.setMotd("ยง6 To jest moje motd!                     ");
 				}
 				i++;
 				if(i > 39){
